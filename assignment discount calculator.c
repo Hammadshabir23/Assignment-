@@ -1,5 +1,5 @@
 #include<stdio.h>
- float calculate_discount(float amount){
+ float calculatediscount(float amount){
  	if(amount > 5000){
  		return amount * 0.20;
 	 }
@@ -17,7 +17,7 @@
     	printf("ENETER TOTAL SHOPPING AMOUNT:");
     	scanf("%f",&totalamount);
     	
-    	float discount =calculate_discount(totalamount);
+    	float discount =calculatediscount(totalamount);
     	float finalamount =totalamount - discount;
     	
     	

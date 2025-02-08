@@ -1,7 +1,7 @@
 #include<stdio.h>
     int main(){
-    	char username[50];
-    	char password[50];
+    	char username[100];
+    	char password[100];
     	
     	printf("ENTER USERNAME: ");
     	scanf("%s",username);
